@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "OKNetWorkHttpAPIManager.h"
+#import "OKNetWorkHttpMonitorNetWork.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [[OKNetWorkHttpAPIManager sharedInstance]requestHomeListWithParams:nil Success:^(id responseObject) {
+        // NSLog(@"data ===== %@",responseObject);
+    } failure:^(NSError *error) {
+        
+    }];
+    
+    [[OKNetWorkHttpMonitorNetWork sharedInstance]monitorNetWork:^(BOOL responseObject) {
+        
+        if (responseObject) {
+            NSLog(@"有网");
+        }else{
+            NSLog(@"没网");
+        }
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

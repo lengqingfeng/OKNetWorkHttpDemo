@@ -15,6 +15,11 @@
 		482D01681CBB31C600616219 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 482D01661CBB31C600616219 /* LaunchScreen.storyboard */; };
 		482D01731CBB31C600616219 /* OKNetWorkHttpDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 482D01721CBB31C600616219 /* OKNetWorkHttpDemoTests.m */; };
 		482D017E1CBB31C600616219 /* OKNetWorkHttpDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 482D017D1CBB31C600616219 /* OKNetWorkHttpDemoUITests.m */; };
+		48C98FC81CBB35130040DE24 /* OKNetWorkHttpAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C98FC11CBB35130040DE24 /* OKNetWorkHttpAPIManager.m */; };
+		48C98FC91CBB35130040DE24 /* OKNetWorkHttpMonitorNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C98FC31CBB35130040DE24 /* OKNetWorkHttpMonitorNetWork.m */; };
+		48C98FCA1CBB35130040DE24 /* OKNetWorkHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C98FC51CBB35130040DE24 /* OKNetWorkHttpRequest.m */; };
+		48C98FCB1CBB35130040DE24 /* OKNetWorkHttpSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C98FC71CBB35130040DE24 /* OKNetWorkHttpSessionManager.m */; };
+		93FF335F2BB20F28DFA09F5F /* Pods_OKNetWorkHttpDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA4534E83A3EF3D3490D124 /* Pods_OKNetWorkHttpDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,18 @@
 		482D01791CBB31C600616219 /* OKNetWorkHttpDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OKNetWorkHttpDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		482D017D1CBB31C600616219 /* OKNetWorkHttpDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OKNetWorkHttpDemoUITests.m; sourceTree = "<group>"; };
 		482D017F1CBB31C600616219 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48C98FBF1CBB35130040DE24 /* OKNetWorkConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKNetWorkConfigure.h; sourceTree = "<group>"; };
+		48C98FC01CBB35130040DE24 /* OKNetWorkHttpAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKNetWorkHttpAPIManager.h; sourceTree = "<group>"; };
+		48C98FC11CBB35130040DE24 /* OKNetWorkHttpAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKNetWorkHttpAPIManager.m; sourceTree = "<group>"; };
+		48C98FC21CBB35130040DE24 /* OKNetWorkHttpMonitorNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKNetWorkHttpMonitorNetWork.h; sourceTree = "<group>"; };
+		48C98FC31CBB35130040DE24 /* OKNetWorkHttpMonitorNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKNetWorkHttpMonitorNetWork.m; sourceTree = "<group>"; };
+		48C98FC41CBB35130040DE24 /* OKNetWorkHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKNetWorkHttpRequest.h; sourceTree = "<group>"; };
+		48C98FC51CBB35130040DE24 /* OKNetWorkHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKNetWorkHttpRequest.m; sourceTree = "<group>"; };
+		48C98FC61CBB35130040DE24 /* OKNetWorkHttpSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKNetWorkHttpSessionManager.h; sourceTree = "<group>"; };
+		48C98FC71CBB35130040DE24 /* OKNetWorkHttpSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKNetWorkHttpSessionManager.m; sourceTree = "<group>"; };
+		874BCB0FABBA21592897594B /* Pods-OKNetWorkHttpDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKNetWorkHttpDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OKNetWorkHttpDemo/Pods-OKNetWorkHttpDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9587038466CB587E286D3A4F /* Pods-OKNetWorkHttpDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OKNetWorkHttpDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OKNetWorkHttpDemo/Pods-OKNetWorkHttpDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		AEA4534E83A3EF3D3490D124 /* Pods_OKNetWorkHttpDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OKNetWorkHttpDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93FF335F2BB20F28DFA09F5F /* Pods_OKNetWorkHttpDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +103,8 @@
 				482D01711CBB31C600616219 /* OKNetWorkHttpDemoTests */,
 				482D017C1CBB31C600616219 /* OKNetWorkHttpDemoUITests */,
 				482D01561CBB31C600616219 /* Products */,
+				EC1C822B2FD10CAD1E673E15 /* Pods */,
+				C98D7AC23D6777F57880BEBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +121,7 @@
 		482D01571CBB31C600616219 /* OKNetWorkHttpDemo */ = {
 			isa = PBXGroup;
 			children = (
+				48C98FBE1CBB35130040DE24 /* NetWork */,
 				482D015B1CBB31C600616219 /* AppDelegate.h */,
 				482D015C1CBB31C600616219 /* AppDelegate.m */,
 				482D015E1CBB31C600616219 /* ViewController.h */,
@@ -140,6 +161,39 @@
 			path = OKNetWorkHttpDemoUITests;
 			sourceTree = "<group>";
 		};
+		48C98FBE1CBB35130040DE24 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				48C98FBF1CBB35130040DE24 /* OKNetWorkConfigure.h */,
+				48C98FC01CBB35130040DE24 /* OKNetWorkHttpAPIManager.h */,
+				48C98FC11CBB35130040DE24 /* OKNetWorkHttpAPIManager.m */,
+				48C98FC21CBB35130040DE24 /* OKNetWorkHttpMonitorNetWork.h */,
+				48C98FC31CBB35130040DE24 /* OKNetWorkHttpMonitorNetWork.m */,
+				48C98FC41CBB35130040DE24 /* OKNetWorkHttpRequest.h */,
+				48C98FC51CBB35130040DE24 /* OKNetWorkHttpRequest.m */,
+				48C98FC61CBB35130040DE24 /* OKNetWorkHttpSessionManager.h */,
+				48C98FC71CBB35130040DE24 /* OKNetWorkHttpSessionManager.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		C98D7AC23D6777F57880BEBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEA4534E83A3EF3D3490D124 /* Pods_OKNetWorkHttpDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC1C822B2FD10CAD1E673E15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9587038466CB587E286D3A4F /* Pods-OKNetWorkHttpDemo.debug.xcconfig */,
+				874BCB0FABBA21592897594B /* Pods-OKNetWorkHttpDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 482D01821CBB31C600616219 /* Build configuration list for PBXNativeTarget "OKNetWorkHttpDemo" */;
 			buildPhases = (
+				A08CA9D15ACE05AC28848200 /* Check Pods Manifest.lock */,
 				482D01511CBB31C600616219 /* Sources */,
 				482D01521CBB31C600616219 /* Frameworks */,
 				482D01531CBB31C600616219 /* Resources */,
+				615CA4B5E849D0BC203DF160 /* Embed Pods Frameworks */,
+				A3E1A985276E5829EFDA33E0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,14 +322,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		615CA4B5E849D0BC203DF160 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OKNetWorkHttpDemo/Pods-OKNetWorkHttpDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A08CA9D15ACE05AC28848200 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3E1A985276E5829EFDA33E0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OKNetWorkHttpDemo/Pods-OKNetWorkHttpDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		482D01511CBB31C600616219 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48C98FCB1CBB35130040DE24 /* OKNetWorkHttpSessionManager.m in Sources */,
 				482D01601CBB31C600616219 /* ViewController.m in Sources */,
+				48C98FC81CBB35130040DE24 /* OKNetWorkHttpAPIManager.m in Sources */,
 				482D015D1CBB31C600616219 /* AppDelegate.m in Sources */,
 				482D015A1CBB31C600616219 /* main.m in Sources */,
+				48C98FCA1CBB35130040DE24 /* OKNetWorkHttpRequest.m in Sources */,
+				48C98FC91CBB35130040DE24 /* OKNetWorkHttpMonitorNetWork.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +522,7 @@
 		};
 		482D01831CBB31C600616219 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9587038466CB587E286D3A4F /* Pods-OKNetWorkHttpDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OKNetWorkHttpDemo/Info.plist;
@@ -424,6 +534,7 @@
 		};
 		482D01841CBB31C600616219 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 874BCB0FABBA21592897594B /* Pods-OKNetWorkHttpDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OKNetWorkHttpDemo/Info.plist;
@@ -498,6 +609,7 @@
 				482D01841CBB31C600616219 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		482D01851CBB31C600616219 /* Build configuration list for PBXNativeTarget "OKNetWorkHttpDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +618,7 @@
 				482D01871CBB31C600616219 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		482D01881CBB31C600616219 /* Build configuration list for PBXNativeTarget "OKNetWorkHttpDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +627,7 @@
 				482D018A1CBB31C600616219 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
