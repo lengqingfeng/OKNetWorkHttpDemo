@@ -2,12 +2,15 @@
 简单，没有黑魔法！更方便自定义！
 
 简单调用
+    
     [[OKNetWorkHttpAPIManager sharedInstance]requestHomeListWithParams:nil Success:^(id responseObject) {
        
     } failure:^(NSError *error) {
         
     }];
+    
 监测有没有网络
+
     [[OKNetWorkHttpMonitorNetWork sharedInstance]monitorNetWork:^(BOOL responseObject) {
         
         if (responseObject) {
